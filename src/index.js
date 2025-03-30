@@ -43,16 +43,8 @@ function generatePassword(){
         hardSell.style.background = "none";
     }else if(password_length > 14){
         easySell.style.background = "green";
-        mediumSell.style.background = "green";
-        hardSell.style.backgroundconsole.log("Password length:", lengthInp.value);
-console.log("Uppercase switch:", uppercaseSwitch.checked);
-console.log("Symbols switch:", symbolsSwitch.checked);
-console.log("Numbers switch:", numbersSwitch.checked);
-console.log("Generated password:", password);console.log("Password length:", lengthInp.value);
-console.log("Uppercase switch:", uppercaseSwitch.checked);
-console.log("Symbols switch:", symbolsSwitch.checked);
-console.log("Numbers switch:", numbersSwitch.checked);
-console.log("Generated password:", password); = "green";
+        mediumSell.style.background = "green";        
+        hardSell.style.background = "green";
     }
 
     display.innerHTML = password;
