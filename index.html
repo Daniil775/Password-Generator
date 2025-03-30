@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./src/index.js" defer></script>
+</head>
+<body>
+
+    <div id="app">
+        <div class="password-generator">
+            <div class="password-generator-mark">Password Generator</div>
+            <h2>Create a strong password</h2>
+            <div class="password-generator-display"></div>
+            <div class="password-generator-strong">
+                Password is strong: <div id="easy"></div> <div id="medium"></div> <div id="hard"></div>
+            </div>
+            <div><input type="range" min="1" max="16"></div>
+            <div class="password-generator-options">
+                <p>
+                    Uppercase (A-Z) 
+                <label  class="switch">
+                    <input id="uppercase" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+                </p>
+                <p>
+                    Symbols (#$%^) 
+                <label class="switch">
+                    <input id="symbols" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+                </p>
+                <p>
+                    Numbers (1-9) 
+                <label class="switch">
+                    <input id="numbers" type="checkbox">
+                    <span class="slider"></span>
+                </label>
+                </p>
+            </div>
+            <button id="generate">Generate</button>
+        </div>
+    </div>
+    
+</body>
+</html>
